@@ -1,6 +1,119 @@
 <!DOCTYPE html>
-<html>
+<html lang = "en">
     <head>
-        <title>Restaurant Menu</title>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Pasta Palace - Restaurant Menu</title>
+        <style>
+            * {
+                background-color: rgb(219, 108, 108);
+            }
+            hr {
+                background-color: rgb(0, 0, 0); 
+                border: none; 
+                height: 1px;
+            }
+            header {
+                text-align: center;
+                border-radius: 3px;
+                background-color: rgb(175, 174, 174);
+                padding: 10px;
+                margin: 10px;
+                margin-bottom: 20px;
+                margin-top: 20px;
+                
+            }
+            figure, .navbar, h1, .navbar a{
+                background-color: rgb(175, 174, 174)
+            }
+            
+             #order-form, #order-form h2, #order-form form, #order-form h3,
+             #order-form div, #order-form label{
+                background-color: rgb(175, 174, 174);
+                border-radius: 5px;
+                border-collapse: collapse;
+               }
+            section {
+                padding: 5px;
+                padding-left: 10px;
+                margin: 10px;
+                
+            }
+            footer {
+                text-align: center;
+            }
+        </style>  
     </head>
+    <body>
+        <header>
+            <figure>
+              <img src="assets/pastas.png">    
+            </figure>
+            <h1>Pasta Palace</h1>
+            <nav class ="navbar">
+                   <a style="text-decoration: none;" href="#menu" >Menu</a> - 
+                   <a style="text-decoration: none;" href="#order-form" >Order Here</a>
+                </nav>
+        </header>
+        <hr>
+        <main>
+            <section id = "menu">
+                <h2>Menu</h2>
+                <article>
+                    <h3>Spagetti and Meatballs</h3>
+                </article>
+                <article>
+                    <h3>Fettucinni Alredo</h3>
+                </article>
+                <article>
+                    <h3>Lasagna</h3>
+                </article>
+                <article>
+                    <h3>Penne Alla Vodka</h3>
+                </article>
+            </section>
+        <hr>
+            <section id="order-form">
+                <h2>Place Your Order</h2>
+                <form>
+                  <label for="spagetti-and-meatballs">Spagetti and Meatballs</label> 
+                  <input type="number" min="0" max="10">
+                  <br><br>
+                  <label for="Fettucinni-Alfredo">Fettucinni Alfredo</label> 
+                  <input type="number" min="0" max="10">
+                  <br><br>
+                  <label for="Lasagna">Lasagna</label> 
+                  <input type="number" min="0" max="10">
+                  <br><br>
+                  <label for="Penne Alla Vodka">Penne Alla Vodka</label> 
+                  <input type="number" min="0" max="10">
+                  <br><br>
+
+                  <div>
+                  <h2>Any Extra Sides?</h2>
+                  Garlic Bread
+                  <input type="number" min="0" max="10">
+                  <br><br>Cesar Salad
+                  <input type="number" min="0" max="10">
+                  </div>
+
+                  <div>
+                  <br><br>Would you like to add utensils?<br>
+                  <input type="Radio" name="option"> Yes <input type="Radio" name="option" required> No
+                  </div>
+
+                  <div>
+                  <h2>Any Special Requests?</h2>
+                  <textarea id = "text area" rows="7" cols="42">Give your special requests here!</textarea>
+                  </div>
+
+                  <input type="submit" value ="Go To Checkout">
+                </form>
+            </section>
+        </main>
+        <footer> 
+            <p>Made With Love by <a href="https://www.codedex.io/@nataliap14" target="_blank">Natalia</a></p>
+            
+        </footer>
+    </body>
 </html>
