@@ -1,30 +1,47 @@
 * {
-    background-color: rgb(219, 108, 108);
-}
+    background-color: white;
+  }
 hr {
-    background-color: rgb(0, 0, 0); 
-    border: none; 
-    height: 1px;
+    background-image: none;
+    background-color: transparent;
+    border-color:transparent;
+    height: 1.9px;
+   
 }
 header {
     text-align: center;
     border-radius: 3px;
-    background-color: rgb(175, 174, 174);
-    padding: 10px;
-    margin: 10px;
-    margin-bottom: 20px;
-    margin-top: 20px;
+    background-color: #91a872;
+    padding: 30px;
+    margin: auto;
+    border-width: 0 1px;
+    background-image: none;
     
 }
+
 figure, .navbar, h1, .navbar a{
-    background-color: rgb(175, 174, 174)
+    background-color: #91a872;
+    background-image: none;
 }
 
+#order-form, #menu {
+    text-align: center;
+    background-image: none;
+    margin: auto;
+   
+}
  #order-form, #order-form h2, #order-form form, #order-form h3,
- #order-form div, #order-form label{
-    background-color: rgb(175, 174, 174);
+ #order-form div, #order-form label {
+    background-color: #ac4646;
     border-radius: 5px;
     border-collapse: collapse;
+ 
+    margin: auto;
+    
+   }
+   #order-form {
+    margin-bottom: 0px;
+    
    }
 section {
     padding: 5px;
@@ -32,15 +49,71 @@ section {
     margin: 10px;
     
 }
-footer {
-    text-align: center;
-}
 .submit-order {
     text-align: center;
-    border-radius:5px;
-    background-color: red;
-
+    
 }
-.menu-info {
+ #menu, #article, #menu h3, #menu p, #menu h2{
     text-align:center;
+    background-color: #dfdbdb;
+    border-radius: 3px;
+    
+   }
+   
+#menu {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    
+   
+}
+h1 {
+    font-weight: bold;
+    font-size: 50px;
+}
+h2 {
+    font-size: 40px;
+    text-align: center;
+    background-color: #dfdbdb;
+    margin: auto;
+}
+#order-form h2, h3 {
+    font-size: 23px;
+}
+p, label, a{
+    font-size: 20px;
+}
+h1, h2, h3 {
+    font-family: "Della Respira", serif;
+    background-image: none;
+}
+p, label {
+    font-family: "Lobster Two", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+    background-image: none;
+}
+footer, a, footer p {
+    text-align: center;
+    background-image: none;
+    background-color: #ac4646;
+    font-size:medium;
+    
+}
+footer {
+    margin-bottom: 20px;
+    border-radius: 3px;
+    padding: 50px;
+    
+}
+#logo {
+    background-color: transparent;
+    max-width: 300px; 
+    display: block; 
+    margin: 0 auto;
+    background-image: none;
+}
+#menuphotos {
+    background-color: transparent;
+    max-width: 150px; 
+    background-image: none;
 }
