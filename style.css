@@ -1,5 +1,5 @@
 * {
-    background-color: white;
+    background-color: rgb(211, 211, 211);
   }
 hr {
     background-image: none;
@@ -23,7 +23,24 @@ figure, .navbar, h1, .navbar a{
     background-color: #91a872;
     background-image: none;
 }
-
+ #menu, #article, #menu h3, #menu p, #menu h2{
+    text-align:center;
+    background-color: #ffffff;
+    border-radius: 3px;
+    
+   }
+   
+#menu {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    
+   
+}
+section {
+    padding: 5px;
+    padding-left: 10px;
+    margin: 10px;
+}
 #order-form, #menu {
     text-align: center;
     background-image: none;
@@ -35,36 +52,28 @@ figure, .navbar, h1, .navbar a{
     background-color: #ac4646;
     border-radius: 5px;
     border-collapse: collapse;
- 
     margin: auto;
     
    }
-   #order-form {
-    margin-bottom: 0px;
+#order-form {
+    margin-bottom: 10px;
     
    }
-section {
-    padding: 5px;
-    padding-left: 10px;
-    margin: 10px;
-    
-}
 .submit-order {
     text-align: center;
     
+    
 }
- #menu, #article, #menu h3, #menu p, #menu h2{
-    text-align:center;
-    background-color: #dfdbdb;
+footer, a, footer p {
+    text-align: center;
+    background-image: none;
+    background-color: #ac4646;
+    font-size:medium;
+    
+}
+footer {
     border-radius: 3px;
-    
-   }
-   
-#menu {
-    display: grid;
-    grid-template-columns: repeat(2, 1fr);
-    
-   
+    padding: 5px;
 }
 h1 {
     font-weight: bold;
@@ -73,11 +82,11 @@ h1 {
 h2 {
     font-size: 40px;
     text-align: center;
-    background-color: #dfdbdb;
+    background-color: #ffffff;
     margin: auto;
 }
-#order-form h2, h3 {
-    font-size: 23px;
+h3 {
+    font-size: 30px;
 }
 p, label, a{
     font-size: 20px;
@@ -92,18 +101,8 @@ p, label {
     font-style: normal;
     background-image: none;
 }
-footer, a, footer p {
-    text-align: center;
-    background-image: none;
-    background-color: #ac4646;
-    font-size:medium;
-    
-}
-footer {
-    margin-bottom: 20px;
-    border-radius: 3px;
-    padding: 50px;
-    
+textarea {
+    width: 50%;
 }
 #logo {
     background-color: transparent;
