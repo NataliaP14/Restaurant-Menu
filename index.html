@@ -3,46 +3,8 @@
     <head>
         <meta charset="UTF-8">
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link rel="stylesheet" type="text/css" href="style.css">
         <title>Pasta Palace - Restaurant Menu</title>
-        <style>
-            * {
-                background-color: rgb(219, 108, 108);
-            }
-            hr {
-                background-color: rgb(0, 0, 0); 
-                border: none; 
-                height: 1px;
-            }
-            header {
-                text-align: center;
-                border-radius: 3px;
-                background-color: rgb(175, 174, 174);
-                padding: 10px;
-                margin: 10px;
-                margin-bottom: 20px;
-                margin-top: 20px;
-                
-            }
-            figure, .navbar, h1, .navbar a{
-                background-color: rgb(175, 174, 174)
-            }
-            
-             #order-form, #order-form h2, #order-form form, #order-form h3,
-             #order-form div, #order-form label{
-                background-color: rgb(175, 174, 174);
-                border-radius: 5px;
-                border-collapse: collapse;
-               }
-            section {
-                padding: 5px;
-                padding-left: 10px;
-                margin: 10px;
-                
-            }
-            footer {
-                text-align: center;
-            }
-        </style>  
     </head>
     <body>
         <header>
@@ -59,18 +21,28 @@
         <main>
             <section id = "menu">
                 <h2>Menu</h2>
+                <div class = "menu-info">
                 <article>
                     <h3>Spagetti and Meatballs</h3>
+                    <p>Delicious pasta served with tomato sauce and meatballs. 
+                        <br>Comes with garlic bread and cesar salad. $15.99</p>
                 </article>
                 <article>
                     <h3>Fettucinni Alredo</h3>
+                    <p>Creamy fettuccini pasta with our homemade alfredo sauce. 
+                        <br>Comes with garlic bread and cesar salad. $16.99</p>
                 </article>
                 <article>
                     <h3>Lasagna</h3>
+                    <p>Loaded lasagna with many layers of sauce, beef, and cheese. 
+                        <br>Comes with garlic bread and cesar salad. $18.99 </p>
                 </article>
                 <article>
                     <h3>Penne Alla Vodka</h3>
+                    <p>Come try our delicious penne pasta with our vodka sauce.
+                        <br>Comes with garlic bread and cesar salad. $15.99</p>
                 </article>
+                </div>
             </section>
         <hr>
             <section id="order-form">
@@ -106,8 +78,10 @@
                   <h2>Any Special Requests?</h2>
                   <textarea id = "text area" rows="7" cols="42">Give your special requests here!</textarea>
                   </div>
-
+                
+                  <div class="submit-order">
                   <input type="submit" value ="Go To Checkout">
+                  </div>
                 </form>
             </section>
         </main>
